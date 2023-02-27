@@ -28,37 +28,57 @@
   <body>
     <!--Header Section-->
     <header>
-      <div class="header-section">
+      <div class="header-section d-flex p-3">
         <img
-          src="assets/resources/Logo E -TSITSO.jpg"
+          src="assets/resources/logo.png"
           alt="logo"
-          class="header-logo"
+          class="header-logo p-2"
         />
-        <button class="header-button">Portofolio</button>
+        <button type="button" class="btn-success header-button text-white">
+          Portofolio
+        </button>
       </div>
     </header>
     <!--Hook Section-->
     <section class="hook-section">
-      <div>
-        <p>
-          Not your typical marketing agency<span
+      <video
+        autoplay
+        muted
+        loop
+        src="assets/resources/Smartphone_03.mp4"
+        alt="video"
+        id="hookVideo"
+      ></video>
+      <div class="overlay">
+        <p class="hook">
+          <span class="hook1"
+            >Not your <br />
+            typical <br />
+            marketing <br />
+            agency
+          </span>
+          <br />
+          <span class="hookTag"
             >The time is now for it to be okay to be great.</span
           >
         </p>
-        <button>Get started</button>
-        <img src="" alt="video" class="" />
+        <button type="button" class="btn-success hook-button text-white">
+          Get started
+        </button>
       </div>
     </section>
     <!--Navbar-->
-    <div>
-      <nav>
-        <ul>
+    
+      <nav class="nav navbar-default">
+        <div class="container-fluid">
+        <ul class="nav navbar-nav">
           <li><a href="">Who we are</a></li>
           <li><a href="">What we believe</a></li>
           <li><a href="">What we do</a></li>
         </ul>
+      </div>
       </nav>
-    </div>
+   
     <!--Main Section-->
     <main>
       <section class="main-section">
@@ -231,12 +251,14 @@
       <div>
         <p>follow us:</p>
         <ul>
-                <li><a href="https://www.facebook.com/etsitso">Facebook</a></li>
-                <li><a href="https://www.instagram.com/etsitso_agency/">Instagram</a></li>
-                <li><a href="https://twitter.com/e_tsitso_agency">Twitter</a></li>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Tiktok</a></li>
-            </ul>
+          <li><a href="https://www.facebook.com/etsitso">Facebook</a></li>
+          <li>
+            <a href="https://www.instagram.com/etsitso_agency/">Instagram</a>
+          </li>
+          <li><a href="https://twitter.com/e_tsitso_agency">Twitter</a></li>
+          <li><a href="">Linkedin</a></li>
+          <li><a href="">Tiktok</a></li>
+        </ul>
       </div>
       <div>copyright</div>
     </footer>
